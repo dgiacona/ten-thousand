@@ -9,7 +9,7 @@ import pytest
 from ten_thousand.game_logic import GameLogic
 
 
-@pytest.mark.skip("pending")
+# @pytest.mark.skip("pending")
 def test_1_dice():
     values = GameLogic.roll_dice(1)
     assert len(values) == 1
